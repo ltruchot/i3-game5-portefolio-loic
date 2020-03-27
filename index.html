@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Loïc Truchot - portefolio</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="Loïc TRUCHOT">
+  <link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
+
+<header id="header" class="fixed w-full z-30 top-0 text-white bg-white">
+
+	<div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
+			
+		<div class="pl-4 flex items-center">
+			<a class="text-black no-underline hover:no-underline font-bold text-2xl lg:text-4xl flex"  href="#"> 
+				<img src="img/robot-icon.svg" class="w-8 block mr-8" /> <span>A.I. Projects</span>
+			</a>
+		</div>
+
+		<div class="block lg:hidden pr-4">
+			<button id="nav-toggle" class="flex items-center p-1 text-orange-800 hover:text-gray-900">
+				<svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+			</button>
+		</div>
+
+		<div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
+			<ul class="list-reset lg:flex justify-end flex-1 items-center">
+				<li class="mr-3">
+					<a class="inline-block py-2 px-4 text-black font-bold no-underline" href="#">Active</a>
+				</li>
+				<li class="mr-3">
+					<a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#">link</a>
+				</li>
+				<li class="mr-3">
+					<a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#">link</a>
+				</li>
+			</ul>
+			<button id="navAction" class="mx-auto gradient lg:mx-0 hover:underline text-white font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75">Action</button>
+		</div>
+	</div>
+	
+	<hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
+</header>
+
+<main>
+<section class="pt-24">
+	<div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+		<!--Left Col-->
+		<div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
+			<p class="uppercase tracking-loose w-full">Loïc "Toto" Truchot présente...</p>
+			<h1 class="my-4 text-5xl font-bold leading-tight">5 mini-projets en <br /> Intelligence Artificielle</h1>
+			<p class="leading-normal text-2xl mb-8">pour s'exercer à la programmation fonctionnelle</p>
+			<button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Subscribe</button>
+		</div>
+		<!--Right Col-->
+		<div class="w-full md:w-3/5 py-6 text-center">
+			<img class="w-full md:w-4/5 z-50 ml-8" src="img/robot.png">
+		</div>		
+	</div>
+</section>
+
+
+
+
+<section class="bg-white border-b py-8">
+	<div class="container max-w-5xl mx-auto m-8">
+		<h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">Mes créations</h1>
+		<div class="w-full mb-4">	
+			<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+		</div>	
+		<div class="flex flex-wrap">
+			<div class="w-5/6 sm:w-1/2 p-6">
+				<h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Le générateur de haïku</h3>
+				<p class="text-gray-600 mb-8">Un projet de génération de haiku écrit en Rust.<br /><br />
+				
+				Dossier github: <a class="text-orange-500 underline" href="https://github.com/ltruchot/haiku-generator">github.com/ltruchot/haiku-generator</a></p>
+				
+			</div>
+			<div class="w-full sm:w-1/2 p-6">
+				<img src="img/haiku.jpg" />
+			</div>
+		</div>		
+		<div class="flex flex-wrap flex-col-reverse sm:flex-row">	
+			<div class="w-full sm:w-1/2 p-6 mt-6">
+				<img src="img/nlp.jpg" />
+			</div>
+			<div class="w-full sm:w-1/2 p-6 mt-6">
+				<div class="align-middle">
+					<h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Scopet Natural Language Processor</h3>
+					<p class="text-gray-600 mb-8">Un "extracteur" de concept utile pour comprendre programmatiquement le sens d'une phrase, en fonction d'un "scope" de vocabulaire. Écrit en TypeScript.<br /><br />
+					Dossier github: <a class="text-orange-500 underline" href="https://github.com/ltruchot/scoped-natural-language-processor">github.com/ltruchot/scoped-natural-language-processor</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+		
+		
+		
+
+<section class="bg-white border-b py-8">
+	
+	<div class="container mx-auto flex flex-wrap pt-4 pb-12">
+	
+		<h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">Mes outils préférés</h1>
+		<div class="w-full mb-4">	
+			<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+		</div>
+	
+		<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+				<a href="#" class="flex flex-wrap no-underline hover:no-underline">
+					<p class="w-full text-gray-600 text-xs md:text-sm px-6">xGETTING STARTED</p>
+					<div class="w-full font-bold text-xl text-gray-800 px-6">Lorem ipsum dolor sit amet.</div>
+					<p class="text-gray-800 text-base px-6 mb-5">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula. 
+					</p>
+				</a>
+			</div>
+			<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+				<div class="flex items-center justify-start">
+					<button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">Action</button>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+				<a href="#" class="flex flex-wrap no-underline hover:no-underline">
+					<p class="w-full text-gray-600 text-xs md:text-sm px-6">xGETTING STARTED</p>
+					<div class="w-full font-bold text-xl text-gray-800 px-6">Lorem ipsum dolor sit amet.</div>
+					<p class="text-gray-800 text-base px-6 mb-5">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula. 
+					</p>
+				</a>
+			</div>
+			<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+				<div class="flex items-center justify-center">
+					<button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">Action</button>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+				<a href="#" class="flex flex-wrap no-underline hover:no-underline">
+					<p class="w-full text-gray-600 text-xs md:text-sm px-6">xGETTING STARTED</p>
+					<div class="w-full font-bold text-xl text-gray-800 px-6">Lorem ipsum dolor sit amet.</div>
+					<p class="text-gray-800 text-base px-6 mb-5">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula. 
+					</p>
+				</a>
+			</div>
+			<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+				<div class="flex items-center justify-end">
+					<button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">Action</button>
+				</div>
+			</div>
+		</div>
+		
+		
+	</div>
+
+</section>
+
+<section class="container mx-auto text-center py-6 mb-12">
+
+	<h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">Embauchez moi !</h1>
+	<div class="w-full mb-4">	
+		<div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
+	</div>
+
+	<h3 class="my-4 text-3xl leading-tight">Si vous aimez mes oeuvres, travaillons ensemble dès aujourd'hui.</h3>	
+
+	<button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Télécharger CV</button>
+		
+</section>
+</main>
+
+<!--Footer-->
+<footer class="bg-white">
+	<div class="container mx-auto  px-8">
+
+        <div class="w-full flex flex-col md:flex-row py-6">
+				
+			<div class="flex-1 mb-6">
+			
+				<a class="text-orange-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"  href="#"> 
+					<span>A propos..</span>
+				</a>
+			</div>
+		
+		
+            <div class="flex-1">
+                <p class="uppercase text-gray-500 md:mb-6">Mes autres sites</p>
+                <ul class="list-reset mb-6">
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">FAQ</a>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">Help</a>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">Support</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex-1">
+                <p class="uppercase text-gray-500 md:mb-6">Mentions légales</p>
+                <ul class="list-reset mb-6">
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">Terms</a>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">Privacy</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex-1">
+                <p class="uppercase text-gray-500 md:mb-6">Réseaux sociaux</p>
+                <ul class="list-reset mb-6">
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">Facebook</a>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">Linkedin</a>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">Twitter</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex-1">
+                <p class="uppercase text-gray-500 md:mb-6">Mon parcours</p>
+                <ul class="list-reset mb-6">
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">Official Blog</a>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">About Us</a>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+	
+	<a href="https://www.freepik.com/free-photos-vectors/background" class="text-gray-500">Background vector created by freepik - www.freepik.com</a>
+
+</footer>
+
+</body>
+
+</html>
